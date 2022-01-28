@@ -1,0 +1,9 @@
+{
+	"name": "dnigam3-adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a59ef239-8529-467c-a1b0-7879758d5cd3",
+		"tenantId": "e8a64aeb-fc47-4028-996f-bd40b2c43782"
+	}
+}

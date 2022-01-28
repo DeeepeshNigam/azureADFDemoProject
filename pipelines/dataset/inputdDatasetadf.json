@@ -1,0 +1,50 @@
+{
+	"name": "inputdDatasetadf",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adflinkedservice",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "ChurnNew.csv",
+				"folderPath": "input",
+				"container": "adfdemocontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": " Premium",
+				"type": "String"
+			},
+			{
+				"name": "Age",
+				"type": "String"
+			},
+			{
+				"name": " Gender",
+				"type": "String"
+			},
+			{
+				"name": "Income",
+				"type": "String"
+			},
+			{
+				"name": "ChronicDis",
+				"type": "String"
+			},
+			{
+				"name": "City",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
